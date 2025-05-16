@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+🚀 Project Overview
+Insight Hub is a comprehensive business intelligence dashboard designed for technology executives and leaders who need to monitor critical business metrics at a glance. This dynamic dashboard visualizes key performance indicators across financial health, product performance, and customer success, enabling data-driven decision making.
+Born from the intersection of business operations expertise and modern web development, this project transforms complex business data into actionable insights through an intuitive, visually appealing interface.
+✨ Live Demo
+View the live dashboard (Coming soon)
+🛠️ Technologies & Tools
+This project leverages modern web technologies to create a responsive, interactive dashboard experience:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React.js - Component-based UI development with hooks for state management
+React Router - Seamless navigation between dashboard sections
+CSS3 with Custom Properties - Flexible styling with dark/light theme support
+Recharts - Data visualization library for creating responsive charts
+LocalStorage API - Persistent user preferences across sessions
+Mock API Service - Simulated backend integration with realistic data loading states
 
-## Available Scripts
+🔑 Key Features
+Executive Overview Dashboard
 
-In the project directory, you can run:
+Quick-glance KPI cards with trend indicators
+Revenue breakdown visualizations
+Cross-functional metrics in a single view
 
-### `npm start`
+Financial Analytics
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MRR/ARR tracking with growth indicators
+Customer acquisition cost monitoring
+Cash runway forecasting
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Product Performance Metrics
 
-### `npm test`
+Sprint completion rates
+System uptime monitoring
+Development velocity tracking
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Customer Success Insights
 
-### `npm run build`
+Customer churn analysis
+Net Promoter Score tracking
+Support performance metrics
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Advanced UI Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Dark/Light Mode Toggle - Customizable visual experience
+Responsive Design - Optimized for desktop and mobile viewing
+Interactive Data Visualizations - Hover for detailed information
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📋 Implementation Details
+The dashboard architecture follows modern React best practices:
 
-### `npm run eject`
+Component-Based Structure - Reusable UI components for consistency
+Context API Integration - For theme management and state sharing
+Mock API Service Layer - Simulated backend communication with loading states
+CSS Grid & Flexbox - For responsive layouts without external dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Developed with ☕ and code by John Boyle
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
