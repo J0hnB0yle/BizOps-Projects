@@ -1,53 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Dashboard.css';
+import MainLayout from './MainLayout';
+import { mockData } from './src/data/dashboardData.js';
 
 function Dashboard() {
-  const mockData = {
-    financials: {
-      mrr: 125000,
-      mrrGrowth: 12.5,
-      cac: 1200,
-      cacChange: -5.2,
-      runway: "18 months",
-      runwayChange: 2
-    },
-    product: {
-      sprintCompletion: "92%",
-      sprintCompletionChange: 3.5,
-      systemUptime: "99.98%",
-      systemUptimeChange: 0.01
-    },
-    customer: {
-      churnRate: "4.2%",
-      churnRateChange: -0.5,
-      nps: 42,
-      npsChange: 3
-    }
-  };
-
   return (
-    <div className="dashboard">
-      <header className="header">
-        <h1>Executive Command Center</h1>
-        <div className="header-right">
-          <span>Last updated: Today</span>
-          <button>Refresh</button>
-        </div>
-      </header>
-      
-      <nav className="sidebar">
-        <div className="sidebar-header">Insight Hub</div>
-        <ul>
-          <li className="active"><Link to="/" className="nav-link">Executive</Link></li>
-          <li><Link to="/financial" className="nav-link">Financial</Link></li>
-          <li><Link to="/product" className="nav-link">Product</Link></li>
-          <li><Link to="/customer" className="nav-link">Customer</Link></li>
-          <li><Link to="/settings" className="nav-link">Settings</Link></li>
-        </ul>
-      </nav>
-      
-      <main className="content">
+    <MainLayout pageTitle="Executive Command Center">
         <section className="metrics-section">
           <h2>Financial Health</h2>
           <div className="metrics-grid">
@@ -104,8 +61,7 @@ function Dashboard() {
             </div>
           </div>
         </section>
-      </main>
-    </div>
+    </MainLayout>
   );
 }
 

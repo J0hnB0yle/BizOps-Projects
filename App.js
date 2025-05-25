@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from './pages/Dashboard';
-import Financial from './pages/Financial';
-import Product from './pages/Product';
-import Customer from './pages/Customer';
-import Settings from './pages/Settings';
+import Dashboard from './Dashboard';
+import Financial from './Financial';
+import Product from './Product';
+import Customer from './Customer';
+import Settings from './Settings';
 import './App.css';
 
 function App() {
